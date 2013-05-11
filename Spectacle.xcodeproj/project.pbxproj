@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530E6D15173EDCD700577087 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530E6D14173EDCD700577087 /* UIKit.framework */; };
+		530E6D17173EDCD700577087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530E6D16173EDCD700577087 /* Foundation.framework */; };
+		530E6D19173EDCD700577087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530E6D18173EDCD700577087 /* CoreGraphics.framework */; };
+		530E6D1B173EDCD700577087 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530E6D1A173EDCD700577087 /* CoreData.framework */; };
+		530E6D21173EDCD700577087 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D1F173EDCD700577087 /* InfoPlist.strings */; };
+		530E6D23173EDCD700577087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530E6D22173EDCD700577087 /* main.m */; };
+		530E6D27173EDCD700577087 /* BAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530E6D26173EDCD700577087 /* BAAppDelegate.m */; };
+		530E6D29173EDCD700577087 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D28173EDCD700577087 /* Default.png */; };
+		530E6D2B173EDCD700577087 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D2A173EDCD700577087 /* Default@2x.png */; };
+		530E6D2D173EDCD700577087 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D2C173EDCD700577087 /* Default-568h@2x.png */; };
+		530E6D30173EDCD700577087 /* Spectacle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 530E6D2E173EDCD700577087 /* Spectacle.xcdatamodeld */; };
+		530E6D33173EDCD700577087 /* BAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530E6D32173EDCD700577087 /* BAMainViewController.m */; };
+		530E6D36173EDCD700577087 /* BAFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530E6D35173EDCD700577087 /* BAFlipsideViewController.m */; };
+		530E6D39173EDCD700577087 /* BAMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D37173EDCD700577087 /* BAMainViewController_iPhone.xib */; };
+		530E6D3C173EDCD700577087 /* BAMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D3A173EDCD700577087 /* BAMainViewController_iPad.xib */; };
+		530E6D3F173EDCD700577087 /* BAFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D3D173EDCD700577087 /* BAFlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530E6D11173EDCD700577087 /* Spectacle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectacle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		530E6D14173EDCD700577087 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		530E6D16173EDCD700577087 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		530E6D18173EDCD700577087 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		530E6D1A173EDCD700577087 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		530E6D1E173EDCD700577087 /* Spectacle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spectacle-Info.plist"; sourceTree = "<group>"; };
+		530E6D20173EDCD700577087 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		530E6D22173EDCD700577087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		530E6D24173EDCD700577087 /* Spectacle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spectacle-Prefix.pch"; sourceTree = "<group>"; };
+		530E6D25173EDCD700577087 /* BAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAAppDelegate.h; sourceTree = "<group>"; };
+		530E6D26173EDCD700577087 /* BAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAAppDelegate.m; sourceTree = "<group>"; };
+		530E6D28173EDCD700577087 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		530E6D2A173EDCD700577087 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		530E6D2C173EDCD700577087 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		530E6D2F173EDCD700577087 /* Spectacle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spectacle.xcdatamodel; sourceTree = "<group>"; };
+		530E6D31173EDCD700577087 /* BAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMainViewController.h; sourceTree = "<group>"; };
+		530E6D32173EDCD700577087 /* BAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMainViewController.m; sourceTree = "<group>"; };
+		530E6D34173EDCD700577087 /* BAFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAFlipsideViewController.h; sourceTree = "<group>"; };
+		530E6D35173EDCD700577087 /* BAFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAFlipsideViewController.m; sourceTree = "<group>"; };
+		530E6D38173EDCD700577087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BAMainViewController_iPhone.xib; sourceTree = "<group>"; };
+		530E6D3B173EDCD700577087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BAMainViewController_iPad.xib; sourceTree = "<group>"; };
+		530E6D3E173EDCD700577087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BAFlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530E6D0E173EDCD700577087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530E6D15173EDCD700577087 /* UIKit.framework in Frameworks */,
+				530E6D17173EDCD700577087 /* Foundation.framework in Frameworks */,
+				530E6D19173EDCD700577087 /* CoreGraphics.framework in Frameworks */,
+				530E6D1B173EDCD700577087 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530E6D08173EDCD700577087 = {
+			isa = PBXGroup;
+			children = (
+				530E6D1C173EDCD700577087 /* Spectacle */,
+				530E6D13173EDCD700577087 /* Frameworks */,
+				530E6D12173EDCD700577087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		530E6D12173EDCD700577087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530E6D11173EDCD700577087 /* Spectacle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530E6D13173EDCD700577087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				530E6D14173EDCD700577087 /* UIKit.framework */,
+				530E6D16173EDCD700577087 /* Foundation.framework */,
+				530E6D18173EDCD700577087 /* CoreGraphics.framework */,
+				530E6D1A173EDCD700577087 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		530E6D1C173EDCD700577087 /* Spectacle */ = {
+			isa = PBXGroup;
+			children = (
+				530E6D25173EDCD700577087 /* BAAppDelegate.h */,
+				530E6D26173EDCD700577087 /* BAAppDelegate.m */,
+				530E6D31173EDCD700577087 /* BAMainViewController.h */,
+				530E6D32173EDCD700577087 /* BAMainViewController.m */,
+				530E6D34173EDCD700577087 /* BAFlipsideViewController.h */,
+				530E6D35173EDCD700577087 /* BAFlipsideViewController.m */,
+				530E6D37173EDCD700577087 /* BAMainViewController_iPhone.xib */,
+				530E6D3A173EDCD700577087 /* BAMainViewController_iPad.xib */,
+				530E6D3D173EDCD700577087 /* BAFlipsideViewController.xib */,
+				530E6D2E173EDCD700577087 /* Spectacle.xcdatamodeld */,
+				530E6D1D173EDCD700577087 /* Supporting Files */,
+			);
+			path = Spectacle;
+			sourceTree = "<group>";
+		};
+		530E6D1D173EDCD700577087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				530E6D1E173EDCD700577087 /* Spectacle-Info.plist */,
+				530E6D1F173EDCD700577087 /* InfoPlist.strings */,
+				530E6D22173EDCD700577087 /* main.m */,
+				530E6D24173EDCD700577087 /* Spectacle-Prefix.pch */,
+				530E6D28173EDCD700577087 /* Default.png */,
+				530E6D2A173EDCD700577087 /* Default@2x.png */,
+				530E6D2C173EDCD700577087 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530E6D10173EDCD700577087 /* Spectacle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530E6D42173EDCD700577087 /* Build configuration list for PBXNativeTarget "Spectacle" */;
+			buildPhases = (
+				530E6D0D173EDCD700577087 /* Sources */,
+				530E6D0E173EDCD700577087 /* Frameworks */,
+				530E6D0F173EDCD700577087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectacle;
+			productName = Spectacle;
+			productReference = 530E6D11173EDCD700577087 /* Spectacle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530E6D09173EDCD700577087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BrightApps;
+			};
+			buildConfigurationList = 530E6D0C173EDCD700577087 /* Build configuration list for PBXProject "Spectacle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 530E6D08173EDCD700577087;
+			productRefGroup = 530E6D12173EDCD700577087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530E6D10173EDCD700577087 /* Spectacle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		530E6D0F173EDCD700577087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530E6D21173EDCD700577087 /* InfoPlist.strings in Resources */,
+				530E6D29173EDCD700577087 /* Default.png in Resources */,
+				530E6D2B173EDCD700577087 /* Default@2x.png in Resources */,
+				530E6D2D173EDCD700577087 /* Default-568h@2x.png in Resources */,
+				530E6D39173EDCD700577087 /* BAMainViewController_iPhone.xib in Resources */,
+				530E6D3C173EDCD700577087 /* BAMainViewController_iPad.xib in Resources */,
+				530E6D3F173EDCD700577087 /* BAFlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530E6D0D173EDCD700577087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530E6D23173EDCD700577087 /* main.m in Sources */,
+				530E6D27173EDCD700577087 /* BAAppDelegate.m in Sources */,
+				530E6D30173EDCD700577087 /* Spectacle.xcdatamodeld in Sources */,
+				530E6D33173EDCD700577087 /* BAMainViewController.m in Sources */,
+				530E6D36173EDCD700577087 /* BAFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		530E6D1F173EDCD700577087 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530E6D20173EDCD700577087 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		530E6D37173EDCD700577087 /* BAMainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530E6D38173EDCD700577087 /* en */,
+			);
+			name = BAMainViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		530E6D3A173EDCD700577087 /* BAMainViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530E6D3B173EDCD700577087 /* en */,
+			);
+			name = BAMainViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		530E6D3D173EDCD700577087 /* BAFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530E6D3E173EDCD700577087 /* en */,
+			);
+			name = BAFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		530E6D40173EDCD700577087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		530E6D41173EDCD700577087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		530E6D43173EDCD700577087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacle/Spectacle-Prefix.pch";
+				INFOPLIST_FILE = "Spectacle/Spectacle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		530E6D44173EDCD700577087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacle/Spectacle-Prefix.pch";
+				INFOPLIST_FILE = "Spectacle/Spectacle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530E6D0C173EDCD700577087 /* Build configuration list for PBXProject "Spectacle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530E6D40173EDCD700577087 /* Debug */,
+				530E6D41173EDCD700577087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530E6D42173EDCD700577087 /* Build configuration list for PBXNativeTarget "Spectacle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530E6D43173EDCD700577087 /* Debug */,
+				530E6D44173EDCD700577087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		530E6D2E173EDCD700577087 /* Spectacle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				530E6D2F173EDCD700577087 /* Spectacle.xcdatamodel */,
+			);
+			currentVersion = 530E6D2F173EDCD700577087 /* Spectacle.xcdatamodel */;
+			path = Spectacle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 530E6D09173EDCD700577087 /* Project object */;
+}
