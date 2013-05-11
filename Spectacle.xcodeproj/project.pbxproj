@@ -23,6 +23,17 @@
 		530E6D39173EDCD700577087 /* BAMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D37173EDCD700577087 /* BAMainViewController_iPhone.xib */; };
 		530E6D3C173EDCD700577087 /* BAMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D3A173EDCD700577087 /* BAMainViewController_iPad.xib */; };
 		530E6D3F173EDCD700577087 /* BAFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530E6D3D173EDCD700577087 /* BAFlipsideViewController.xib */; };
+		5387F4BE173EE5B5007623E0 /* LTransitionImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5387F4A4173EE5B5007623E0 /* LTransitionImageView.m */; };
+		5387F4DC173EE814007623E0 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4D4173EE814007623E0 /* image0.jpg */; };
+		5387F4DD173EE814007623E0 /* image0@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4D5173EE814007623E0 /* image0@2x.jpg */; };
+		5387F4DE173EE814007623E0 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4D6173EE814007623E0 /* image1.jpg */; };
+		5387F4DF173EE814007623E0 /* image1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4D7173EE814007623E0 /* image1@2x.jpg */; };
+		5387F4E0173EE814007623E0 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4D8173EE814007623E0 /* image2.jpg */; };
+		5387F4E1173EE814007623E0 /* image2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4D9173EE814007623E0 /* image2@2x.jpg */; };
+		5387F4E2173EE814007623E0 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4DA173EE814007623E0 /* image3.jpg */; };
+		5387F4E3173EE814007623E0 /* image3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387F4DB173EE814007623E0 /* image3@2x.jpg */; };
+		5387F4E5173EE834007623E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5387F4E4173EE834007623E0 /* QuartzCore.framework */; };
+		5387F4E7173EEA48007623E0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5387F4E6173EEA48007623E0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +59,18 @@
 		530E6D38173EDCD700577087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BAMainViewController_iPhone.xib; sourceTree = "<group>"; };
 		530E6D3B173EDCD700577087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BAMainViewController_iPad.xib; sourceTree = "<group>"; };
 		530E6D3E173EDCD700577087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BAFlipsideViewController.xib; sourceTree = "<group>"; };
+		5387F4A3173EE5B5007623E0 /* LTransitionImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTransitionImageView.h; path = LTransitionImageView/Classes/LTransitionImageView.h; sourceTree = "<group>"; };
+		5387F4A4173EE5B5007623E0 /* LTransitionImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTransitionImageView.m; path = LTransitionImageView/Classes/LTransitionImageView.m; sourceTree = "<group>"; };
+		5387F4D4173EE814007623E0 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		5387F4D5173EE814007623E0 /* image0@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image0@2x.jpg"; sourceTree = "<group>"; };
+		5387F4D6173EE814007623E0 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		5387F4D7173EE814007623E0 /* image1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image1@2x.jpg"; sourceTree = "<group>"; };
+		5387F4D8173EE814007623E0 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		5387F4D9173EE814007623E0 /* image2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image2@2x.jpg"; sourceTree = "<group>"; };
+		5387F4DA173EE814007623E0 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		5387F4DB173EE814007623E0 /* image3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image3@2x.jpg"; sourceTree = "<group>"; };
+		5387F4E4173EE834007623E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5387F4E6173EEA48007623E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5387F4E7173EEA48007623E0 /* AVFoundation.framework in Frameworks */,
+				5387F4E5173EE834007623E0 /* QuartzCore.framework in Frameworks */,
 				530E6D15173EDCD700577087 /* UIKit.framework in Frameworks */,
 				530E6D17173EDCD700577087 /* Foundation.framework in Frameworks */,
 				530E6D19173EDCD700577087 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +93,8 @@
 		530E6D08173EDCD700577087 = {
 			isa = PBXGroup;
 			children = (
+				5387F4E6173EEA48007623E0 /* AVFoundation.framework */,
+				5387F4D2173EE5D9007623E0 /* Dependencies */,
 				530E6D1C173EDCD700577087 /* Spectacle */,
 				530E6D13173EDCD700577087 /* Frameworks */,
 				530E6D12173EDCD700577087 /* Products */,
@@ -85,6 +112,7 @@
 		530E6D13173EDCD700577087 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5387F4E4173EE834007623E0 /* QuartzCore.framework */,
 				530E6D14173EDCD700577087 /* UIKit.framework */,
 				530E6D16173EDCD700577087 /* Foundation.framework */,
 				530E6D18173EDCD700577087 /* CoreGraphics.framework */,
@@ -123,6 +151,42 @@
 				530E6D2C173EDCD700577087 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5387F4A0173EE5B5007623E0 /* LTransitionImageView */ = {
+			isa = PBXGroup;
+			children = (
+				5387F4D3173EE814007623E0 /* Images */,
+				5387F4A3173EE5B5007623E0 /* LTransitionImageView.h */,
+				5387F4A4173EE5B5007623E0 /* LTransitionImageView.m */,
+			);
+			name = LTransitionImageView;
+			path = Dependencies/LTransitionImageView;
+			sourceTree = SOURCE_ROOT;
+		};
+		5387F4D2173EE5D9007623E0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				5387F4A0173EE5B5007623E0 /* LTransitionImageView */,
+			);
+			name = Dependencies;
+			path = Spectacle;
+			sourceTree = "<group>";
+		};
+		5387F4D3173EE814007623E0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5387F4D4173EE814007623E0 /* image0.jpg */,
+				5387F4D5173EE814007623E0 /* image0@2x.jpg */,
+				5387F4D6173EE814007623E0 /* image1.jpg */,
+				5387F4D7173EE814007623E0 /* image1@2x.jpg */,
+				5387F4D8173EE814007623E0 /* image2.jpg */,
+				5387F4D9173EE814007623E0 /* image2@2x.jpg */,
+				5387F4DA173EE814007623E0 /* image3.jpg */,
+				5387F4DB173EE814007623E0 /* image3@2x.jpg */,
+			);
+			name = Images;
+			path = LTransitionImageViewSample/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +248,14 @@
 				530E6D39173EDCD700577087 /* BAMainViewController_iPhone.xib in Resources */,
 				530E6D3C173EDCD700577087 /* BAMainViewController_iPad.xib in Resources */,
 				530E6D3F173EDCD700577087 /* BAFlipsideViewController.xib in Resources */,
+				5387F4DC173EE814007623E0 /* image0.jpg in Resources */,
+				5387F4DD173EE814007623E0 /* image0@2x.jpg in Resources */,
+				5387F4DE173EE814007623E0 /* image1.jpg in Resources */,
+				5387F4DF173EE814007623E0 /* image1@2x.jpg in Resources */,
+				5387F4E0173EE814007623E0 /* image2.jpg in Resources */,
+				5387F4E1173EE814007623E0 /* image2@2x.jpg in Resources */,
+				5387F4E2173EE814007623E0 /* image3.jpg in Resources */,
+				5387F4E3173EE814007623E0 /* image3@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +271,7 @@
 				530E6D30173EDCD700577087 /* Spectacle.xcdatamodeld in Sources */,
 				530E6D33173EDCD700577087 /* BAMainViewController.m in Sources */,
 				530E6D36173EDCD700577087 /* BAFlipsideViewController.m in Sources */,
+				5387F4BE173EE5B5007623E0 /* LTransitionImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

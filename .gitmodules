@@ -1,0 +1,3 @@
+[submodule "Dependencies/LTransitionImageView"]
+	path = Dependencies/LTransitionImageView
+	url = git@github.com:santthosh/LTransitionImageView.git

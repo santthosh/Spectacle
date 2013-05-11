@@ -7,10 +7,13 @@
 //
 
 #import "BAFlipsideViewController.h"
+#import "LTransitionImageView.h"
 
 #import <CoreData/CoreData.h>
 
-@interface BAMainViewController : UIViewController <BAFlipsideViewControllerDelegate>
+@interface BAMainViewController : UIViewController <BAFlipsideViewControllerDelegate> {
+    LTransitionImageView *_transitionImageView;
+}
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
