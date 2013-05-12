@@ -1,3 +1,9 @@
 [submodule "Dependencies/LTransitionImageView"]
 	path = Dependencies/LTransitionImageView
 	url = git@github.com:santthosh/LTransitionImageView.git
+[submodule "Dependencies/500px-iOS-api"]
+	path = Dependencies/500px-iOS-api
+	url = git@github.com:santthosh/500px-iOS-api.git
+[submodule "Dependencies/SDWebImage"]
+	path = Dependencies/SDWebImage
+	url = git@github.com:santthosh/SDWebImage.git

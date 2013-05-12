@@ -9,6 +9,7 @@
 #import "BAAppDelegate.h"
 
 #import "BAMainViewController.h"
+#import "PXAPI.h"
 
 @implementation BAAppDelegate
 
@@ -19,6 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [PXRequest setConsumerKey:@"qfs1oEDfb7xNAxM6nNs3wJryh1Cjz6gAhOtWqlLY" consumerSecret:@"bggYVT3ockOpfchkHasCarQ13YDKBTyVck10lQzR"];
+    
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.mainViewController = [[BAMainViewController alloc] initWithNibName:@"BAMainViewController_iPhone" bundle:nil];
